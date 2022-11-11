@@ -246,3 +246,12 @@ resource "github_repository" "org_access" {
   description = "org_access"
   visibility  = "public"
 }
+
+#######################################
+####    tf-aws-session-manager    ####
+#######################################
+
+resource "github_repository" "github_workflow_apis" {
+  name        = "tf-aws-session-manager"
+  description = "tf-aws-session-manager"
+}
